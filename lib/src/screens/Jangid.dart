@@ -7,6 +7,7 @@ class Jangid extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(title: Text("Jangid"),),
     body: Container(
+      
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
       color: Colors.deepPurple,
